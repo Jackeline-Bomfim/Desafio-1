@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --color-black: #111111 100%;
+}
+
+body{
+    max-width: 1100px;   
+    margin: 0 auto;     
+}
+
+header {
+    padding-top: 32px;
+    padding-bottom: 32px;
+} 
+
+header p {
+    font-size: 20px;   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav#menu ul {
+    position: absolute;
+    top: 42px;
+    left: 200px;
+}
+
+nav#menu li {
+    display: inline;
+    font-size: 16px;
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;  
+}
+
+a {
+    color: var(--color-black);
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+    transition: 200ms;
+}
+
+.destaque {
+    padding: 10%;
+    background-color: #FBDFDB;
+    border-radius: 30px;
+}
+
+.destaque h1 {
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.destaque p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    max-width: 350px;
+}
+
+.destaque img {   
+    position: absolute;
+    top: 189px;
+    left: 859px;
+    width: 17%;
+}
+
+.acessadas {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    text-align: center;
+}
+
+.foto img {
+    border-radius: 20px;
+    width: 100%;
+}
+
+.content h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: left;
+    color: var(--color-black);
+    margin-bottom: 3px;
+}
+
+.content p {
+    font-size: 14px;
+    color: #777777 100%;
+    margin-top: 0;
+    text-align: left;
+}
+
+/*==== SOBRE ====*/
+
+.contexto h1 {
+    font-size: 24px;
+    color: var(--color-black);
+    font-family: 'Roboto', sans-serif;
+}
+
+.contexto h3 {
+    font-size: 20px;
+    color: var(--color-black);
+    font-family: 'Roboto', sans-serif;
+}
+
+.contexto p {
+    font-size: 18px;
+    color: #444444;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    padding: 30px;
+    
+    background-color: #EEEEEE;
+    text-align: center;
+    font-size: 12px;
+    color: black;
+}
+
+/*==== Modal Receita ====*/
+
+.modal-receita {
+    max-width: 1100px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 16px;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    visibility: hidden;
+}
+
+.modal {
+    background-color: #ffffff;
+    width: 65%;
+    height: 70%;
+    margin: 20vh auto;
+    position: relative;
+    border-radius: 13px;
+ }
+
+input {
+    padding: 3px;
+}
+
+.fechar-modal {
+    position: absolute;
+    top: 420px;
+    left: 300px;;
+}
+
+/*==== Modal Receita Ativo ====*/
+
+.modal-receita.ativo {
+    visibility: visible;
+}
+
+/*==== Imagem no modal ====*/
+
+img.iframe {
+    padding: 55px;
+}
+
+
+
+
+
+
+
+
