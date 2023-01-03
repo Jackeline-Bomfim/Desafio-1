@@ -63,8 +63,8 @@ a:hover {
 .destaque img {   
     position: absolute;
     top: 189px;
-    left: 859px;
-    width: 17%;
+    left: 1200px;
+    width: 10%;
 }
 
 .acessadas {
@@ -167,6 +167,13 @@ input {
 
 img.iframe {
     padding: 55px;
+}
+
+@media screen and (min-width: 700px) {
+    .destaque img {   
+       left: 800px;
+       top: 240px;
+    }
 }
 
 
